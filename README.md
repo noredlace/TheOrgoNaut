@@ -15,7 +15,9 @@ This allows the keyboard to be symmetrical while having good compatibility with 
 KLE
 ![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/redrawn%20matrix%20v2.png?raw=true)
 
-The color code helps identify the rows of diodes that will be used. Before this, I had made the matrix based off the position of keys, which made tracing messy due to a multitude of crossed traces. Thus I made necessary changes to allow for cleaner traces and minimal vias.
+The color code helps identify the rows of diodes that will be used. The spacing allows for me to visualize the columns. The actual PCB won't have the spacing that you see on the left and right side. The triangle spacing in the middle will stay.
+
+Before this, I had made the matrix based off the position of keys, which made tracing messy due to a multitude of crossed traces. Thus I made necessary changes to allow for cleaner traces and minimal vias.
 
 You can also see the row and column numbers to visualize the schematic.
 
