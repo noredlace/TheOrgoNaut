@@ -8,12 +8,16 @@ Nonstandard keycaps include the 2.25u Novelty on the left side. This keycap is m
 
 The left shift key was chosen to be a 2.75u with the right shift being a split shift 1.75u + 1u key.
 
-![alt text](https://raw.githubusercontent.com/noredlace/OrgoNati/master/orgonati%20layout.png)
+![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/redrawn%20matrix%20v2.png?raw=true)
+
+The color code helps identify the rows of diodes that will be used. Before this, I had made the matrix based off the position of keys, which made tracing messy due to a multitude of crossed traces. Thus I made necessary changes to allow for cleaner traces and minimal vias.
 
 
 
-Schematic was done in a 9 x 8 layout. This is due to the 66 keys on the OrgoNati. Limitations of the ProMicro's PinOuts means the tracing is messy due to the odd path of each switch/diode. <br />
-![alt text](https://raw.githubusercontent.com/noredlace/OrgoNati/master/orgonati%20schematic.jpg)
+Schematic was done in a 9 x 8 layout. This is due to the 66 keys on the OrgoNaut. <br />
+![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/orgonaut66%20schematic.png?raw=true)
 
-The glory of ugly tracing can be seen
-![alt text](https://raw.githubusercontent.com/noredlace/OrgoNati/master/orgonati%20pcb.png)
+Front PCB
+![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/orgonaut66%20front%20pcb%20v2.png?raw=true)
+Back PCB
+![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/orgonaut66%20back%20pcb%20v2.png?raw=true)
