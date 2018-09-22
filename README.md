@@ -27,7 +27,21 @@ Schematic was done in a 9 x 8 layout. This is due to the 66 keys on the OrgoNaut
 
 PCB Dimensions are 148x362mm(5.81x14.25 inches) 
 Front PCB
-![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/orgonaut66%20front%20pcb%20v3.png?raw=true)
+![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/orgonaut66%20front%20pcb%20v4.png?raw=true)
 Back PCB
-![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/orgonaut66%20back%20pcb%20v3.png?raw=true)
+![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/orgonaut66%20back%20pcb%20v4.png?raw=true)
 As you can see in the photos, the pcb is relatively clean in terms of the tracing. Of course its relative to how much of a mess my previous trace attempts have been.
+
+Update v3 changed the pictures from KiCad's renderer to a gerber viewer provided by EasyEDA
+
+Update v4 brought uniform ground planes to cover both front and back of the pcb. As well as changing the through hole footprints from m2 screw holes to pok3r style holes
+
+
+# Major Update
+The PCBs have been ordered and delivered courtesy of EasyEDA. The PCBs have been tested and all holes are currently registering correct keystrokes for the simple keyboard layout that has been made.
+
+PCBs just delivered
+![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/deliveredpcb.png?raw=true)
+
+PCB Soldered with diodes and socketed pro micro
+![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/solderedpcb.png?raw=true)
