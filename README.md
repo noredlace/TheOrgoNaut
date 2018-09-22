@@ -32,6 +32,8 @@ Back PCB
 ![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/orgonaut66%20back%20pcb%20v4.png?raw=true)
 As you can see in the photos, the pcb is relatively clean in terms of the tracing. Of course its relative to how much of a mess my previous trace attempts have been.
 
+Update v2 attempted to create aesthetically pleasing tracing. significant focus on how tracing to the pro micro 
+
 Update v3 changed the pictures from KiCad's renderer to a gerber viewer provided by EasyEDA
 
 Update v4 brought uniform ground planes to cover both front and back of the pcb. As well as changing the through hole footprints from m2 screw holes to pok3r style holes
