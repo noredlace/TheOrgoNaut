@@ -41,7 +41,7 @@ Update v4 brought uniform ground planes to cover both front and back of the pcb.
 The PCBs have been ordered and delivered courtesy of EasyEDA. The PCBs have been tested and all holes are currently registering correct keystrokes for the simple keyboard layout that has been made.
 
 PCBs just delivered
-![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/deliveredpcb.png?raw=true)
+![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/deliveredpcb.jpg?raw=true)
 
 PCB Soldered with diodes and socketed pro micro
-![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/solderedpcb.png?raw=true)
+![alt text](https://github.com/noredlace/TheOrgoNaut/blob/master/pics/solderedpcb.jpg?raw=true)
