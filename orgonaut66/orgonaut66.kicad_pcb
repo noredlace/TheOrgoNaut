@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 20171130) (host pcbnew "(6.0.0-rc1-dev-557-ge985f797c)")
 
   (general
-    (links 471)
-    (no_connects 0)
-    (area -28.650001 -2.456251 333.450001 145.331251)
     (thickness 1.6)
     (drawings 15)
     (tracks 964)
@@ -21,20 +18,20 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
-    (34 B.Paste user)
-    (35 F.Paste user)
-    (36 B.SilkS user)
-    (37 F.SilkS user)
-    (38 B.Mask user)
-    (39 F.Mask user)
+    (34 B.Paste user hide)
+    (35 F.Paste user hide)
+    (36 B.SilkS user hide)
+    (37 F.SilkS user hide)
+    (38 B.Mask user hide)
+    (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
-    (43 Eco2.User user hide)
+    (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user hide)
     (46 B.CrtYd user hide)
@@ -49,8 +46,6 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.15)
     (via_size 0.6)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -60,6 +55,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -68,11 +65,15 @@
     (pad_size 6.1 6.1)
     (pad_drill 4.6)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_80000001)
+      (layerselection 0x010f4_7ffffffe)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -81,8 +82,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -94,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory orgonaut66gerber/))
+      (outputdirectory "orgonaut66gerber/"))
   )
 
   (net 0 "")
@@ -293,7 +293,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -341,7 +341,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -389,7 +389,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 21.844 10.668 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -2767,7 +2767,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -2815,7 +2815,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -2863,7 +2863,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -2911,7 +2911,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -2959,7 +2959,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3007,7 +3007,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3055,7 +3055,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3103,7 +3103,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3151,7 +3151,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3199,7 +3199,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3247,7 +3247,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3295,7 +3295,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3343,7 +3343,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3391,7 +3391,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 14.732 10.668 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3483,7 +3483,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3531,7 +3531,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3579,7 +3579,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3627,7 +3627,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3675,7 +3675,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3723,7 +3723,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3771,7 +3771,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3819,7 +3819,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 14.732 10.668 285) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -3911,7 +3911,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 17.272 10.668 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4003,7 +4003,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4051,7 +4051,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4099,7 +4099,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4147,7 +4147,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4195,7 +4195,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4243,7 +4243,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4291,7 +4291,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4339,7 +4339,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4387,7 +4387,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4435,7 +4435,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4483,7 +4483,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4531,7 +4531,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4579,7 +4579,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4627,7 +4627,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4675,7 +4675,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 17.272 10.668 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4767,7 +4767,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4815,7 +4815,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4863,7 +4863,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4911,7 +4911,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -4959,7 +4959,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5007,7 +5007,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 9.906 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5055,7 +5055,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5103,7 +5103,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5151,7 +5151,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5199,7 +5199,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5247,7 +5247,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5295,7 +5295,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 12.446 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5343,7 +5343,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5391,7 +5391,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5439,7 +5439,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 14.732 10.668 75) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5531,7 +5531,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5579,7 +5579,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 9.906 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5627,7 +5627,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5675,7 +5675,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5723,7 +5723,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5771,7 +5771,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5819,7 +5819,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5867,7 +5867,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5915,7 +5915,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 15) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -5963,7 +5963,7 @@
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value KEYSW (at 5.334 10.922 345) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
     (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer Cmts.User) (width 0.1524))
@@ -7245,7 +7245,7 @@
   (segment (start 244.44325 86.9315) (end 239.36325 86.9315) (width 0.25) (layer B.Cu) (net 87) (tstamp 5B92F3DF))
   (segment (start 245.05325 86.3215) (end 244.44325 86.9315) (width 0.25) (layer B.Cu) (net 87) (tstamp 5B92F3DE))
 
-  (zone (net 76) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 76) (net_name GND) (layer F.Cu) (tstamp 5BABFFF1) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -9265,7 +9265,7 @@
       )
     )
   )
-  (zone (net 76) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 76) (net_name GND) (layer B.Cu) (tstamp 5BABFFEE) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
