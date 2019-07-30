@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name 3dmodels)(type KiCad)(uri "D:/Users/Documents/GitHub/KiCad Libraries/Keebio-Parts.pretty/3dmodels")(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri D:/Users/Documents/KiCad/libraries/ProMicroKiCad-master/promicro.pretty)(options "")(descr ""))
+  (lib (name keebs)(type KiCad)(uri D:/Users/Documents/KiCad/libraries/keebs.pretty-master)(options "")(descr ""))
+  (lib (name kicad_lib_tmk-master)(type KiCad)(uri D:/Users/Documents/KiCad/libraries/kicad_lib_tmk-master)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri D:/Users/Documents/KiCad/libraries/keyboard_parts.pretty-master)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri "D:/Users/Documents/GitHub/KiCad Libraries/Keebio-Parts.pretty")(options "")(descr ""))
+)
